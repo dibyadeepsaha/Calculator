@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'Open-Sans';
+    src: url('OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Calculator';
+    src: url('Calculator.ttf');
+}
+
+
+body {
+    background-image: url("https://crella.sfo2.cdn.digitaloceanspaces.com/wp-content/uploads/2019/12/28221158/40-Black-Wood-Background-Textures-7-1594x1062.jpg");
+    font-family: "Open-Sans";
+}
+
+.divider {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    align-self: center;
+}
+
+#title {
+    color: white;
+    font-size: 60px;
+}
+
+.number {
+    background-color: rgb(84, 94, 77);
+    color:  white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Calculator";
+    font-size: 35px;
+}
+
+.number-entry {
+    background-image: url("https://crella.sfo2.cdn.digitaloceanspaces.com/wp-content/uploads/2019/12/28221158/40-Black-Wood-Background-Textures-7-1594x1062.jpg");
+    color: white;
+    border-color: white;
+    border-width: 0.5px;
+}
+
+.number-entry:hover {
+    border-color: rgb(84, 94, 77);
+}
+
+.calculate-button {
+    background-image: url("https://crella.sfo2.cdn.digitaloceanspaces.com/wp-content/uploads/2019/12/28221158/40-Black-Wood-Background-Textures-7-1594x1062.jpg");
+    color: white;
+    border-color: white;
+    border-width: 0.5px;
+}
+
+.calculate-button:hover {
+    border-color: rgb(84, 94, 77);
+}
+
+.calculation-type-input {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
