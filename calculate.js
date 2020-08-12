@@ -1,5 +1,5 @@
 /* MIT License - Copyright (c) 2020 - Dibyadeep Saha */
-function calculate(){
+function calculate() {
     var first = parseInt(document.getElementById("first").value);
     var second = parseInt(document.getElementById("second").value);
 
